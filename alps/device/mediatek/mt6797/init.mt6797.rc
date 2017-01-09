@@ -839,9 +839,9 @@ on boot
     chmod 0770 /sys/power/tuxonice
     chmod 0220 /sys/power/tuxonice/do_hibernate
     
-# define device for gmadfs306
-	chown system system /system/bin/gmadfs306
-	chmod 0770 /system/bin/gmadfs306
+# define device for gmadfs303
+	chown system system /system/bin/gmadfs303
+	chmod 0770 /system/bin/gmadfs303
 
 # Smartbook Handler Framework
     chown system system /sys/power/sb_state

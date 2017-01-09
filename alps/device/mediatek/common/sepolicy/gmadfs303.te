@@ -29,8 +29,8 @@ allow gmadfs303 msensor_device:chr_file { open ioctl read write };
 allow gmadfs303 gsensor_device:chr_file { open ioctl read write };
 allow gmadfs303 input_device:dir { search open read write };
 allow gmadfs303 input_device:file { open read };
-allow gmadfs303 akmd8963_access_file1:file { open read write };
-allow gmadfs303 akmd8963_access_file2:file { open read write};
+#allow gmadfs303 akmd8963_access_file1:file { open read write };
+#allow gmadfs303 akmd8963_access_file2:file { open read write};
 # Operate data partation directly, need modify later,e.g. use "data/misc/sensor".
 # for msensor daemon access "data/misc".
 file_type_auto_trans(gmadfs303, system_data_file, msensor_data_file)

@@ -387,6 +387,7 @@
 /system/bin/aal u:object_r:aal_exec:s0
 /system/bin/aee_core_forwarder u:object_r:aee_core_forwarder_exec:s0
 /system/bin/akmd09911 u:object_r:akmd09911_exec:s0
+/system/bin/gmadfs303 u:object_r:gmadfs303_exec:s0
 /system/bin/gmadfs306 u:object_r:gmadfs306_exec:s0
 /system/bin/akmd09912 u:object_r:akmd09912_exec:s0
 /system/bin/akmd8963 u:object_r:akmd8963_exec:s0
